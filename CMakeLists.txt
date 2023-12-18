@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.26)
+project(Libreria_Estandar_De_C)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Libreria_Estandar_De_C
+        main.c
+        README.md)
