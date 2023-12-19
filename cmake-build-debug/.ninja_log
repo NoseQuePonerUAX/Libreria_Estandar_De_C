@@ -1,14 +1,13 @@
 # ninja log v5
 6	865	7246482395260750	CMakeFiles/Libreria_Estandar_De_C.dir/main.c.obj	530398203879eb18
-2	443	7246490840809480	build.ninja	d9f6dd7fdcf313fe
 15	628	7246482392876989	CMakeFiles/Libreria_Estandar_De_C.dir/cadenas.c.obj	6b0b4cb9f0b40959
-6	535	7246488871551424	CMakeFiles/Cadenas.dir/cadenas.c.obj	3a38a91ad83796d0
+1	595	7246497676077177	build.ninja	d9f6dd7fdcf313fe
 536	1148	7246488877207600	Cadenas.exe	b10f394dffd47000
+6	535	7246488871551424	CMakeFiles/Cadenas.dir/cadenas.c.obj	3a38a91ad83796d0
 1	1842	7246483721795730	CMakeFiles/main.dir/main.c.obj	9bfb975d36cc3c5d
+10	873	7246496833211570	CMakeFiles/Main.dir/archivos.c.obj	1ead147101806b76
 1843	2256	7246483725885772	main.exe	789facf5563b23db
-0	323	7246491016966064	CMakeFiles/Archivos.dir/archivos.c.obj	d439b532312f3230
-324	554	7246491018887704	Archivos.exe	ce7a09ebf74dae18
-2	101	7246491179755465	CMakeFiles/Archivos.dir/archivos.c.obj	d439b532312f3230
-101	257	7246491181086076	Archivos.exe	ce7a09ebf74dae18
 4	339	7246493537085729	CMakeFiles/Archivos.dir/archivos.c.obj	d439b532312f3230
 341	754	7246493540656032	Archivos.exe	ce7a09ebf74dae18
+1	1439	7246496838863381	CMakeFiles/Main.dir/main.c.obj	ee2eff470e38024f
+3	1226	7246497467911208	Main.exe	e481284cdf7570ec

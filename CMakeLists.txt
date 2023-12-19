@@ -3,8 +3,6 @@ project(Libreria_Estandar_De_C)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Main main.c
-        archivos.c)
-add_executable(Cadenas cadenas.c
-        archivos.c)
+add_executable(Main main.c)
+add_executable(Cadenas cadenas.c)
 add_executable(Archivos archivos.c)

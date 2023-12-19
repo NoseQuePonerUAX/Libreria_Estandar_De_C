@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Main.exe"
+			"path" : "Cadenas.exe"
 		},
 		{
-			"path" : "Main.pdb"
+			"path" : "Cadenas.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -44,12 +44,11 @@
 			"language" : "C",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
-	"id" : "Main::@6890427a1f51a3e7e1df",
+	"id" : "Cadenas::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +68,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "Main",
-	"nameOnDisk" : "Main.exe",
+	"name" : "Cadenas",
+	"nameOnDisk" : "Cadenas.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -82,8 +81,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -92,13 +90,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "archivos.c",
+			"path" : "cadenas.c",
 			"sourceGroupIndex" : 0
 		}
 	],
