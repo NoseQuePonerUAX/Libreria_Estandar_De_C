@@ -1,3 +1,6 @@
 # ninja log v5
 2	3403	7246474900391036	CMakeFiles/Libreria_Estandar_De_C.dir/main.c.obj	530398203879eb18
 3406	6109	7246474927398794	Libreria_Estandar_De_C.exe	d41207a0485af03f
+2	443	7246478707505628	build.ninja	d9f6dd7fdcf313fe
+2	446	7246478712550247	CMakeFiles/Libreria_Estandar_De_C.dir/main.c.obj	530398203879eb18
+446	915	7246478717045249	Libreria_Estandar_De_C.exe	d41207a0485af03f
