@@ -55,6 +55,12 @@ build CMakeFiles/Main.dir/main.c.obj: C_COMPILER__Main_unscanned_Debug C$:/Users
   OBJECT_DIR = CMakeFiles\Main.dir
   OBJECT_FILE_DIR = CMakeFiles\Main.dir
 
+build CMakeFiles/Main.dir/archivos.c.obj: C_COMPILER__Main_unscanned_Debug C$:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/archivos.c || cmake_object_order_depends_target_Main
+  DEP_FILE = CMakeFiles\Main.dir\archivos.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Main.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Main
@@ -63,7 +69,7 @@ build CMakeFiles/Main.dir/main.c.obj: C_COMPILER__Main_unscanned_Debug C$:/Users
 #############################################
 # Link the executable Main.exe
 
-build Main.exe: C_EXECUTABLE_LINKER__Main_Debug CMakeFiles/Main.dir/main.c.obj
+build Main.exe: C_EXECUTABLE_LINKER__Main_Debug CMakeFiles/Main.dir/main.c.obj CMakeFiles/Main.dir/archivos.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Main.dir
@@ -88,6 +94,12 @@ build CMakeFiles/Cadenas.dir/cadenas.c.obj: C_COMPILER__Cadenas_unscanned_Debug 
   OBJECT_DIR = CMakeFiles\Cadenas.dir
   OBJECT_FILE_DIR = CMakeFiles\Cadenas.dir
 
+build CMakeFiles/Cadenas.dir/archivos.c.obj: C_COMPILER__Cadenas_unscanned_Debug C$:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/archivos.c || cmake_object_order_depends_target_Cadenas
+  DEP_FILE = CMakeFiles\Cadenas.dir\archivos.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Cadenas.dir
+  OBJECT_FILE_DIR = CMakeFiles\Cadenas.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Cadenas
@@ -96,7 +108,7 @@ build CMakeFiles/Cadenas.dir/cadenas.c.obj: C_COMPILER__Cadenas_unscanned_Debug 
 #############################################
 # Link the executable Cadenas.exe
 
-build Cadenas.exe: C_EXECUTABLE_LINKER__Cadenas_Debug CMakeFiles/Cadenas.dir/cadenas.c.obj
+build Cadenas.exe: C_EXECUTABLE_LINKER__Cadenas_Debug CMakeFiles/Cadenas.dir/cadenas.c.obj CMakeFiles/Cadenas.dir/archivos.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Cadenas.dir
@@ -105,6 +117,39 @@ build Cadenas.exe: C_EXECUTABLE_LINKER__Cadenas_Debug CMakeFiles/Cadenas.dir/cad
   TARGET_FILE = Cadenas.exe
   TARGET_IMPLIB = libCadenas.dll.a
   TARGET_PDB = Cadenas.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Archivos
+
+
+#############################################
+# Order-only phony target for Archivos
+
+build cmake_object_order_depends_target_Archivos: phony || CMakeFiles/Archivos.dir
+
+build CMakeFiles/Archivos.dir/archivos.c.obj: C_COMPILER__Archivos_unscanned_Debug C$:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/archivos.c || cmake_object_order_depends_target_Archivos
+  DEP_FILE = CMakeFiles\Archivos.dir\archivos.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Archivos.dir
+  OBJECT_FILE_DIR = CMakeFiles\Archivos.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Archivos
+
+
+#############################################
+# Link the executable Archivos.exe
+
+build Archivos.exe: C_EXECUTABLE_LINKER__Archivos_Debug CMakeFiles/Archivos.dir/archivos.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Archivos.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Archivos.exe
+  TARGET_IMPLIB = libArchivos.dll.a
+  TARGET_PDB = Archivos.exe.dbg
 
 
 #############################################
@@ -132,6 +177,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Archivos: phony Archivos.exe
+
 build Cadenas: phony Cadenas.exe
 
 build Main: phony Main.exe
@@ -144,7 +191,7 @@ build Main: phony Main.exe
 #############################################
 # Folder: C:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/cmake-build-debug
 
-build all: phony Main.exe Cadenas.exe
+build all: phony Main.exe Cadenas.exe Archivos.exe
 
 # =============================================================================
 # Built-in targets

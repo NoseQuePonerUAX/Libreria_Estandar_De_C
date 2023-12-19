@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -40,15 +42,22 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "Archivos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Archivos-Debug-5858cd484e9667737323.json",
+					"name" : "Archivos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Cadenas::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Cadenas-Debug-82751db07b5e43c36a94.json",
+					"jsonFile" : "target-Cadenas-Debug-d1e5e855aab4d7ee2e14.json",
 					"name" : "Cadenas",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Main-Debug-3e0bb2c07af0a57a3892.json",
+					"jsonFile" : "target-Main-Debug-13e3c1d6fcb7d4b2e10d.json",
 					"name" : "Main",
 					"projectIndex" : 0
 				}
