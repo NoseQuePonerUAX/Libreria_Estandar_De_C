@@ -3,6 +3,5 @@ project(Libreria_Estandar_De_C)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Libreria_Estandar_De_C
-        main.c
-        README.md)
+add_executable(Main main.c)
+add_executable(Cadenas cadenas.c)

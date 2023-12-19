@@ -1,6 +1,8 @@
 # ninja log v5
-2	3403	7246474900391036	CMakeFiles/Libreria_Estandar_De_C.dir/main.c.obj	530398203879eb18
-3406	6109	7246474927398794	Libreria_Estandar_De_C.exe	d41207a0485af03f
-2	443	7246478707505628	build.ninja	d9f6dd7fdcf313fe
-2	446	7246478712550247	CMakeFiles/Libreria_Estandar_De_C.dir/main.c.obj	530398203879eb18
-446	915	7246478717045249	Libreria_Estandar_De_C.exe	d41207a0485af03f
+6	865	7246482395260750	CMakeFiles/Libreria_Estandar_De_C.dir/main.c.obj	530398203879eb18
+2	443	7246484070602649	build.ninja	d9f6dd7fdcf313fe
+15	628	7246482392876989	CMakeFiles/Libreria_Estandar_De_C.dir/cadenas.c.obj	6b0b4cb9f0b40959
+4	4287	7246482315889473	CMakeFiles/Cadenas.dir/cadenas.c.obj	3a38a91ad83796d0
+4288	6088	7246482334906247	Cadenas.exe	b10f394dffd47000
+1	1842	7246483721795730	CMakeFiles/main.dir/main.c.obj	9bfb975d36cc3c5d
+1843	2256	7246483725885772	main.exe	789facf5563b23db

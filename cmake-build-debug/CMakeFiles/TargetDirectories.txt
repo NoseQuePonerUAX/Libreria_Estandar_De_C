@@ -1,3 +1,4 @@
-C:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/cmake-build-debug/CMakeFiles/Libreria_Estandar_De_C.dir
+C:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/cmake-build-debug/CMakeFiles/Main.dir
+C:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/cmake-build-debug/CMakeFiles/Cadenas.dir
 C:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

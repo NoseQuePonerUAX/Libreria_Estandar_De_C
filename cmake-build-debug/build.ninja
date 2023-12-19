@@ -41,37 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Libreria_Estandar_De_C
+# Object build statements for EXECUTABLE target Main
 
 
 #############################################
-# Order-only phony target for Libreria_Estandar_De_C
+# Order-only phony target for Main
 
-build cmake_object_order_depends_target_Libreria_Estandar_De_C: phony || CMakeFiles/Libreria_Estandar_De_C.dir
+build cmake_object_order_depends_target_Main: phony || CMakeFiles/Main.dir
 
-build CMakeFiles/Libreria_Estandar_De_C.dir/main.c.obj: C_COMPILER__Libreria_Estandar_De_C_unscanned_Debug C$:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/main.c || cmake_object_order_depends_target_Libreria_Estandar_De_C
-  DEP_FILE = CMakeFiles\Libreria_Estandar_De_C.dir\main.c.obj.d
+build CMakeFiles/Main.dir/main.c.obj: C_COMPILER__Main_unscanned_Debug C$:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/main.c || cmake_object_order_depends_target_Main
+  DEP_FILE = CMakeFiles\Main.dir\main.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Libreria_Estandar_De_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Libreria_Estandar_De_C.dir
+  OBJECT_DIR = CMakeFiles\Main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Main.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Libreria_Estandar_De_C
+# Link build statements for EXECUTABLE target Main
 
 
 #############################################
-# Link the executable Libreria_Estandar_De_C.exe
+# Link the executable Main.exe
 
-build Libreria_Estandar_De_C.exe: C_EXECUTABLE_LINKER__Libreria_Estandar_De_C_Debug CMakeFiles/Libreria_Estandar_De_C.dir/main.c.obj
+build Main.exe: C_EXECUTABLE_LINKER__Main_Debug CMakeFiles/Main.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Libreria_Estandar_De_C.dir
+  OBJECT_DIR = CMakeFiles\Main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Libreria_Estandar_De_C.exe
-  TARGET_IMPLIB = libLibreria_Estandar_De_C.dll.a
-  TARGET_PDB = Libreria_Estandar_De_C.exe.dbg
+  TARGET_FILE = Main.exe
+  TARGET_IMPLIB = libMain.dll.a
+  TARGET_PDB = Main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Cadenas
+
+
+#############################################
+# Order-only phony target for Cadenas
+
+build cmake_object_order_depends_target_Cadenas: phony || CMakeFiles/Cadenas.dir
+
+build CMakeFiles/Cadenas.dir/cadenas.c.obj: C_COMPILER__Cadenas_unscanned_Debug C$:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/cadenas.c || cmake_object_order_depends_target_Cadenas
+  DEP_FILE = CMakeFiles\Cadenas.dir\cadenas.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Cadenas.dir
+  OBJECT_FILE_DIR = CMakeFiles\Cadenas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Cadenas
+
+
+#############################################
+# Link the executable Cadenas.exe
+
+build Cadenas.exe: C_EXECUTABLE_LINKER__Cadenas_Debug CMakeFiles/Cadenas.dir/cadenas.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Cadenas.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Cadenas.exe
+  TARGET_IMPLIB = libCadenas.dll.a
+  TARGET_PDB = Cadenas.exe.dbg
 
 
 #############################################
@@ -99,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Libreria_Estandar_De_C: phony Libreria_Estandar_De_C.exe
+build Cadenas: phony Cadenas.exe
+
+build Main: phony Main.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +144,7 @@ build Libreria_Estandar_De_C: phony Libreria_Estandar_De_C.exe
 #############################################
 # Folder: C:/Users/josep/OneDrive/Documentos/GitHub/Libreria_Estandar_De_C/cmake-build-debug
 
-build all: phony Libreria_Estandar_De_C.exe
+build all: phony Main.exe Cadenas.exe
 
 # =============================================================================
 # Built-in targets
